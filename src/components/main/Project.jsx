@@ -3,7 +3,10 @@ import { Projects } from "../sub/ProjectContent";
 // eslint-disable-next-line react/prop-types
 const Project = ({ style }) => {
   return (
-    <motion.div className="p-4  sm:p-8 md:p-12 lg:p-8 xl:p-20 flex flex-col items-center mb-16 sm:mb-24 lg:mb-32 mx-4 sm:mx-8 md:mx-12 lg:mx-16 ">
+    <motion.div
+      id="projects"
+      className="p-4  sm:p-8 md:p-12 lg:p-8 xl:p-20 flex flex-col items-center mb-16 sm:mb-24 lg:mb-32 mx-4 sm:mx-8 md:mx-12 lg:mx-16 "
+    >
       <motion.div
         className="rounded-full w-32 sm:w-40 md:w-48 text-sm sm:text-lg lg:text-xl xl:text-2xl text-white text-center mb-8 sm:mb-12 lg:mb-16"
         style={style}

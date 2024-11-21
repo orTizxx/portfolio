@@ -7,7 +7,7 @@ const HeroContent = ({ style }) => {
       <motion.div className="w-full md:w-7/12 flex flex-col justify-center gap-4">
         <motion.span className="flex items-center gap-2">
           <motion.img
-            src="src/assets/wave.png"
+            src="../../../public/assets/wave.png"
             initial={{ rotate: 0 }}
             animate={{ rotate: 60 }}
             transition={{
@@ -27,7 +27,7 @@ const HeroContent = ({ style }) => {
           className="flex items-center justify-between w-56 md:w-2/3 xl:w-1/2 bg-white/10 border-gray-600 border-[1px] rounded-3xl px-2 py-2 md:py-2"
         >
           <img
-            src="src/assets/location.png"
+            src="../../../public/assets/location.png"
             alt="Location"
             className="w-5 h-5 md:w-7 md:h-7"
           />
@@ -35,7 +35,7 @@ const HeroContent = ({ style }) => {
             Manipur, India
           </p>
           <img
-            src="src/assets/india.png"
+            src="../../../public/assets/india.png"
             alt="India"
             className="w-5 h-5 md:w-7 md:h-7"
           />
@@ -61,7 +61,7 @@ const HeroContent = ({ style }) => {
       >
         <img
           className="w-full max-w-xs md:min-w-full min-h-96 object-contain"
-          src="src/assets/mainIconsdark.svg"
+          src="../../../public/assets/mainIconsdark.svg"
           alt="Tech Stack"
         />
       </motion.div>

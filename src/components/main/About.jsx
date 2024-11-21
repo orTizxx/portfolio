@@ -2,7 +2,10 @@ import { motion } from "framer-motion";
 // eslint-disable-next-line react/prop-types
 const About = ({ style }) => {
   return (
-    <div className="flex flex-col items-center md:px-14 lg:px-24 xl:px-28 px-9 mb-10">
+    <div
+      id="aboutMe"
+      className="pt-14  flex flex-col items-center md:px-14 lg:px-24 xl:px-28 px-9 mb-10"
+    >
       <motion.div
         className="rounded-full w-48 text-white text-center text-lg "
         style={style}

@@ -23,7 +23,7 @@ const NavbarContent = ({ style }) => {
           href="mailto:nasiruddinns08@gmail.com"
           className="inline sm:hidden h-7 w-7"
         >
-          <img src="src/assets/gmail.png" alt="" />
+          <img src="../../../public/assets/gmail.png" alt="" />
         </a>
       </motion.div>
       <div className="hidden  gap-2 items-center   sm:flex ">
@@ -32,10 +32,18 @@ const NavbarContent = ({ style }) => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img className="  h-13 w-13 " src="src/assets/github.png" alt="" />
+          <img
+            className="  h-13 w-13 "
+            src="../../../public/assets/github.png"
+            alt=""
+          />
         </a>
         <a href="mailto:nasiruddinns08@gmail.com">
-          <img className="  h-12 w-13 " src="src/assets/gmail.png" alt="" />
+          <img
+            className="  h-12 w-13 "
+            src="../../../public/assets/gmail.png"
+            alt=""
+          />
         </a>
       </div>
     </>

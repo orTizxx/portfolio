@@ -30,7 +30,10 @@ const Skill = ({ style }) => {
   const handlePause2 = () => hoverRef2.current.pause();
   const handleResume2 = () => hoverRef2.current.play();
   return (
-    <div className="flex flex-col items-center overflow-hidden mt-14 m-0">
+    <div
+      id="skills"
+      className="pt-14 flex flex-col items-center overflow-hidden mt-14 m-0"
+    >
       <motion.div
         className="rounded-full w-48 text-lg text-white text-center mb-16"
         style={style}
